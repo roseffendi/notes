@@ -1,0 +1,14 @@
+{
+    "name": "increative/notes",
+    "description": "Notes",
+    "type": "git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roseffendi",
+            "email": "carrpirates@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
