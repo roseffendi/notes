@@ -9,7 +9,7 @@ class NotesServiceProvider extends ServiceProvider
     /**
      * @var string
      */
-    protected $namespace = 'Increative\Notes';
+    protected $namespace = 'Roseffendi\Notes';
 
     /**
      * Booting package
@@ -20,6 +20,7 @@ class NotesServiceProvider extends ServiceProvider
         $this->registerView();
         $this->registerTranslation();
         $this->registerRoute();
+        $this->registerConfig();
 
         $navigator = $this->app['Increative\Pluginable\Contracts\Navigator'];
 
@@ -32,6 +33,23 @@ class NotesServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->app->bind('Roseffendi\Notes\Repositories\NotnotTokenRepository',
+            'Roseffendi\Notes\Infrastructure\Repositories\NotnotTokenRepository');
+    }
+
+    /**
+     * Registering config
+     * @return void
+     */
+    protected function registerConfig()
+    {
+        $this->mergeConfigFrom(
+            __DIR__.'/../config/notes.php', 'notes'
+        );
+
+        $this->publishes([
+            __DIR__.'/../config/notes.php' => config_path('notes.php'),
+        ], 'config');
     }
 
     /**

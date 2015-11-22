@@ -9,7 +9,7 @@ class NotesController extends AdminController
 {
     public function getIndex()
     {
-            
+        return view('notes::backend.notes.index');
     }
 
     public function getAccessCode(Request $request)
