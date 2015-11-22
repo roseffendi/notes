@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Increative\\Notes\\": "src/"
+            "Roseffendi\\Notes\\": "src/"
         }
     },
     "require": {
