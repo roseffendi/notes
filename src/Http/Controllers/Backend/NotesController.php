@@ -9,7 +9,7 @@ class NotesController extends AdminController
 {
     public function getIndex()
     {
-
+            
     }
 
     public function getAccessCode(Request $request)
