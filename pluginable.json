@@ -8,6 +8,6 @@
         },
     "version": "1.0.0",
     "providers": [
-        "Increative\\Notes\\NotesServiceProvider"
+        "Roseffendi\\Notes\\NotesServiceProvider"
     ]
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Increative\Notes;
+namespace Roseffendi\Notes;
 
 use Illuminate\Support\ServiceProvider;
 

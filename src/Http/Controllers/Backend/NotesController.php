@@ -1,6 +1,6 @@
 <?php
 
-namespace Increative\Notes\Http\Controllers\Backend;
+namespace Roseffendi\Notes\Http\Controllers\Backend;
 
 use Increative\Foundation\Http\Controllers\AdminController;
 use Illuminate\Http\Request;
