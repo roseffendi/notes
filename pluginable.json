@@ -1,0 +1,13 @@
+{
+    "name": "roseffend/notes",
+    "description": "Notes viewer",
+    "author": 
+        {
+            "name": "Roseffendi",
+            "email": "carrpirates@gmail.com"
+        },
+    "version": "1.0.0",
+    "providers": [
+        "Increative\\Notes\\NotesServiceProvider"
+    ]
+}
