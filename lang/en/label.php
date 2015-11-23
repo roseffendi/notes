@@ -3,5 +3,5 @@
 return [
     'title' => [
         'notes' => 'Notes'
-    ]
+    ],
 ];

@@ -34,7 +34,7 @@ class NotesServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('Roseffendi\Notes\Repositories\NotnotTokenRepository',
-            'Roseffendi\Notes\Infrastructure\Repositories\NotnotTokenRepository');
+            'Roseffendi\Notes\Infrastructure\Repositories\NotnotEloquentRepository');
     }
 
     /**

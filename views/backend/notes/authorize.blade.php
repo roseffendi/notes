@@ -11,7 +11,7 @@
         <div class="col-lg-12">
             <div class="box box-warning">
                 <div class="box-body">
-                    <a href="{{ $authorizeUrl }}" target="__blank" class="btn btn-primary">{{ trans('notes::message.authorize') }}</a>
+                    <a href="{{ $authorizeUrl }}?response_type={{ $responseType }}&client_id={{ $clientId }}&redirect_uri={{ $redirectUri }}" target="__blank" class="btn btn-primary">{{ trans('notes::message.authorize') }}</a>
                 </div>
             </div>
         </div>
